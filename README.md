@@ -1,64 +1,62 @@
-🛠️ Evershop Demo Website Manual Testing Project
-This repository contains manual testing documentation for the Evershop Demo Website, focusing on core functionality, usability, and responsiveness.
+🛠️ Evershop Demo – Manual Testing Project
+This repository contains documentation for manual testing performed on a sample e-commerce website based on the Evershop Demo platform. The focus was on validating essential features, user flows, and the overall usability of the website.
 
 📌 Project Overview
-The goal of this project is to manually test key features of the Evershop demo site and identify issues impacting user experience and functionality.
+The objective of this project is to verify that key functionalities in the Evershop Demo interface operate as expected under various scenarios. This includes identifying UI/UX issues, functional bugs, and improvement areas across common user activities.
 
 📝 Scope of Testing
-🔑 User Authentication – Signup and login flows with valid/invalid data
+🔑 User Authentication – Signup and login with both valid and invalid credentials
 
-🏠 Homepage – Navigation, featured products, search behavior
+🏠 Homepage Components – Navigation, featured product sections, and search functionality
 
-🛒 Shopping Cart – Add/remove products, session persistence
+🛒 Shopping Cart – Product addition/removal and cart behavior without/with login
 
 🎯 Objectives
-Validate core functionalities
+Ensure core features perform according to expectations
 
-Identify UI/UX issues
+Detect and document any inconsistencies or bugs in functionality
 
-Ensure compatibility across devices and browsers
+Assess usability and responsiveness across browsers and devices
 
 🔍 Test Strategy
-✔️ Test Types
-Functional Testing
+✔️ Testing Types
+Functional Testing – Verifying key user actions (signup, login, cart)
 
-Usability Testing
+Usability Testing – Evaluating user experience, layout, and flow
 
-Regression Testing
+Regression Testing – Ensuring updates don’t affect previous functionality
 
-Exploratory Testing
+Exploratory Testing – Informal tests to uncover edge cases
 
-🌐 Environment
-URL: https://demo.evershop.io
+🌐 Test Environment
+Browsers Used: Chrome, Firefox (latest versions)
 
-Browsers: Chrome, Firefox
+Devices Tested: Desktop, Tablet, Mobile
 
-Devices: Desktop, Mobile, Tablet
-
-Test Data: Valid & invalid inputs
+Test Data: Valid and invalid input combinations
 
 🧰 Tools Used
-Browser DevTools
+Browser Developer Tools
 
-TestRail / Jira (for tracking)
+API/Network monitoring tools (where applicable)
 
-Postman (if applicable)
+Test case and defect tracking via a test management platform
 
 ✅ Recommendations
-Enforce stricter input validation
+Apply stricter validation for form fields, especially email inputs
 
-Require login before adding to cart
+Restrict cart access or operations for unauthenticated users
 
-Improve error feedback and form messaging
+Improve visual feedback and error messaging
 
-Test dynamic elements like search suggestions more thoroughly
+Optimize dynamic UI components such as real-time search
 
 📂 Deliverables
-📄 Test Plan
+📄 Test Plan – Overview of testing strategy and scope
 
-📝 Test Cases
+📝 Test Cases – Covering key workflows and edge cases
 
-📈 Test Summary Report
+📈 Test Summary Report – Results and observations
 
 📚 Appendix
-All detailed test cases and reports are documented in the test management tool used.
+All detailed documentation (test steps, results, observations) is stored in the test management tool used for this project and is available on request.
