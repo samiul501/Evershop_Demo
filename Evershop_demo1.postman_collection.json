@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "039eab14-dafc-4a45-9abf-95c7d0a896d4",
+		"name": "Evershop_demo1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44803252",
+		"_collection_link": "https://samiulislam-8443851.postman.co/workspace/samiul-islam's-Workspace~9a1fd042-e1d3-4954-8136-dd827ab3ba74/collection/44803252-039eab14-dafc-4a45-9abf-95c7d0a896d4?action=share&source=collection_link&creator=44803252"
+	},
+	"item": [
+		{
+			"name": "search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://demo.evershop.io/search?keyword=Nike+React",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "keyword",
+							"value": "Nike+React"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_To_Cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"sku\": \"NJC44141-Black-L\",\r\n  \"qty\": \"2\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo.evershop.io/api/cart/mine/items",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"api",
+						"cart",
+						"mine",
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View_Cart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://demo.evershop.io/cart",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
